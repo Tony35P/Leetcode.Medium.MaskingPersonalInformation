@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leetcode.Medium.MaskingPersonalInformation", "Leetcode.Medium.MaskingPersonalInformation\Leetcode.Medium.MaskingPersonalInformation.csproj", "{1F8AD492-9869-4937-9BEC-5F244C4F4AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaskingHelperTest", "MaskingHelperTest\MaskingHelperTest.csproj", "{3A674807-D342-41A8-AF70-F703183CB70A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1F8AD492-9869-4937-9BEC-5F244C4F4AC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F8AD492-9869-4937-9BEC-5F244C4F4AC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F8AD492-9869-4937-9BEC-5F244C4F4AC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A674807-D342-41A8-AF70-F703183CB70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A674807-D342-41A8-AF70-F703183CB70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A674807-D342-41A8-AF70-F703183CB70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A674807-D342-41A8-AF70-F703183CB70A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
