@@ -10,7 +10,18 @@ namespace Leetcode.Medium.MaskingPersonalInformation
     {
         public string MaskPII(string data)
         {
-            throw new NotImplementedException();
+            int indexOfAt = data.IndexOf("@");
+            if (indexOfAt > 0)
+            {
+                string lowerEmail = data.ToLower();
+
+                string result = $"{lowerEmail.Substring(0, 1)}*****{lowerEmail.Substring(indexOfAt - 1)}";
+                return result;
+            }
+            else
+            {
+                throw new NotImplementedException();
+            }
         }
     }
 }
